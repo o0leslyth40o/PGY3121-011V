@@ -4,9 +4,16 @@
     display: inline-block;
     background:#faecb4;
     font-family: Arial, Helvetica, sans-serif;
-    color:#fff;
     padding: 20px 55px;
+    color:#fff;
     text-decoration: none;
+}
+
+.nav-enlace img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+
 }
 
 .nav-enlace:hover{
