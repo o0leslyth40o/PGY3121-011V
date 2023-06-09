@@ -4,14 +4,14 @@
     display: inline-block;
     background:#faecb4;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 100px;
+    padding: 30px 100px;
     color:#fff;
     text-decoration: none;
 }
 
 .nav-enlace img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 20px;
 
 }
@@ -22,7 +22,28 @@
 }
 
 nav{
-    background: #faecb4;
+    background: #ffde59;
     display: flex;
     justify-content: space-around;
+}
+
+
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+    float: left;
+
+}
+
+.navbar-brand{
+    margin-inline-end: 0%;
+    background: #ffde59;
+    background-position: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding:100px;
+    
 }
