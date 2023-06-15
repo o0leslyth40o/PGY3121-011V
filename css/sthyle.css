@@ -1,49 +1,66 @@
 
-
-.nav-enlace{ 
-    display: inline-block;
-    background:#faecb4;
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px 100px;
-    color:#fff;
+}
+
+header{
+    background: #ffde59;
+    height: 40px;
+    width: 100;
+}
+.brand{
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold; 
+}
+
+.brand img{
+    width: 35px;
+    height: 35px;
+    border-radius: 0px;
+    float: left;
+}
+
+.brand label{
+    box-sizing: border-box; 
+    font-size: small;
+    float: right;
+}
+.brand label img{
+    width: 20px;
+    height: 20px;
+    float: center;
+}
+
+nav{
+    background: #faecb4;
+    width: 100;
+    height: 50px;  
+}
+
+nav:hover{
+    background: #ffde59;
+    color: #fff;
+    height: 5k0px;
+    width: 100;
+    
+}
+.nav-enlace{
+    display: inline-block;
     text-decoration: none;
+    color:#fff;
+    padding-inline-start:10%;
 }
 
 .nav-enlace img{
     width: 30px;
     height: 30px;
     border-radius: 20px;
-
 }
 
-.nav-enlace:hover{
-    background: #ffde59;
-    color:#fff;
-}
-
-nav{
-    background: #ffde59;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.navbar-brand img{
-    width: 50px;
-    height: 50px;
-    border-radius: 0px;
-    float: left;
-
-}
-
-.navbar-brand{
-    margin-inline-end: 0%;
-    background: #ffde59;
-    background-position: 100%;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    display: inline-block;
-    padding:100px;
-    
-}
