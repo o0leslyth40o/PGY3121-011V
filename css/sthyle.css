@@ -12,6 +12,7 @@ header{
     height: 40px;
     width: 100;
 }
+
 .brand{
     padding: 4px;
     margin: 4px;
@@ -36,6 +37,12 @@ header{
     width: 20px;
     height: 20px;
     float: center;
+}
+
+footer{
+    background: #ffde59;
+    height: 25px;
+    width: 100;
 }
 
 nav{
